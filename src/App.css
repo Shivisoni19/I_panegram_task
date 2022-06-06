@@ -1,0 +1,57 @@
+
+/* NextPrevWeek Css */
+.week{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+/* Timezone Css */
+.timezone{
+  text-align:left;
+  margin: 2rem; 
+}
+
+/* Week Details css */
+.weeklyDays{
+  display: flex;
+  margin: 2rem; 
+}
+.dayTiming{
+  text-align: left;
+}
+.weeklyDays{
+  text-align: left;
+}
+.weeklyDays tr{
+  text-align: left;
+  padding: 10px;
+}
+.daysName{
+  color: rgb(141, 23, 23);
+  font-weight: bold;
+  background-color: #f1f1f1;
+  width: 100px;
+  text-align: center;
+}
+.daysName span{
+  font-weight:200;
+  color: #474b53;
+}
+.daysName:hover{
+  background-color: rgb(236, 213, 213);
+}
+
+/* dayTiming css */
+.dayTiming{
+  margin: 1rem;
+}
+
+input[type=checkbox] {
+  color: blue !important;
+}
+
+/* .checkbox:checked:before{
+  background-color:green;
+  } */
